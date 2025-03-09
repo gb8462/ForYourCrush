@@ -4,8 +4,10 @@ body{
 }
 
 div{
+    margin-top: 200px;
     text-align: center;
     vertical-align: middle;
+    user-select: none;
   }
   button {
       font-size: 22px;
