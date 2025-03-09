@@ -10,21 +10,21 @@
 <body>
     <div>
         <h1>Hi Crush, Love mo ba ako? UwU</h1>
-        <button id="Yes">Yes</button>
-        <button id="noButton">No</button>
+        <button id="oo">Oo</button>
+        <button id="hindi">Hindi</button>
     </div>
     <script>
-        document.getElementById("Yes").addEventListener("click",function(){
+        document.getElementById("oo").addEventListener("click",function(){
         alert("I Love You TOO UwU");
     });
 
-    var noButton = document.getElementById("noButton");
-    noButton.addEventListener("click", function() {
-        var randomX = Math.floor(Math.random() * (window.innerWidth - noButton.offsetWidth));
-        var randomY = Math.floor(Math.random() * (window.innerHeight - noButton.offsetHeight));
-        noButton.style.position = "absolute";
-        noButton.style.left = randomX + "px";
-        noButton.style.top = randomY + "px";
+    var hindi = document.getElementById("hindi");
+    hindi.addEventListener("click", function() {
+        var randomX = Math.floor(Math.random() * (window.innerWidth - hindi.offsetWidth));
+        var randomY = Math.floor(Math.random() * (window.innerHeight - hindi.offsetHeight));
+        hindi.style.position = "absolute";
+        hindi.style.left = randomX + "px";
+        hindi.style.top = randomY + "px";
 });
     </script>
 </body>
